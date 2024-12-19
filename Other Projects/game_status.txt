@@ -1,0 +1,6 @@
+Game Status:
+dayLeftToApply: 3
+health: -7
+motivation: -203
+chanceOfJob: 128
+knowledge: 51
