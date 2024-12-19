@@ -1,0 +1,7 @@
+{% extends 'madlib_app/base.html' %}
+
+{% block content %}
+    <h1 class="mt-4">Your Mad Lib Story</h1>
+    <p>{{ story }}</p>
+    <a href="{% url 'create_madlib' %}" class="btn btn-secondary">Create Another Mad Lib</a>
+{% endblock %}
